@@ -1,14 +1,26 @@
 <html>
 <head>
 <title>Font loading...</title>
-<script src="https://use.typekit.net/cqm0oty.js"></script>
+<script type="text/javascript" src="//use.typekit.net/lia2ean.js"></script>
 <script>
-(function(){ // load custom font
-    try{
-        //Typekit.load();
-    }
-    catch(e){}
-})
+try{
+    Typekit.load({
+        loading: function() {
+          // JavaScript to execute when fonts start loading
+          console.log('Fonts loading...');
+        },
+        active: function() {
+          // JavaScript to execute when fonts become active
+          // this is where you want to init your animation stuff
+          console.log('Fonts ACTIVATED...');
+        },
+        inactive: function() {
+          // JavaScript to execute when fonts become inactive
+          console.log('Fonts inactive...');
+        }
+    });
+}
+catch(e){}
 </script>
 
 <style>
