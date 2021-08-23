@@ -20,8 +20,6 @@
         <div class="container text-center">
             <img src="assets/img/think-logo.png" class="img-responsive main-logo" />
 
-            <div id="network-graph"></div>
-
             <canvas id="springy" width="720" height="480"></canvas>
         </div>
 
@@ -29,45 +27,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="assets/js/springy.js"></script>
         <script src="assets/js/springyui.js"></script>
-        <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
-        <!-- <script src="assets/js/main.js"></script> -->
-        <script>
-            var data = [
-                "Tech Innovator",
-                "Leadership and Government",
-                "End User Market",
-                "Industry",
-                "Finance",
-                "Products & Technology",
-                "Human Resource",
-                "Infrastructure",
-                "Research & Development"
-            ];
-
-            // http://getspringy.com/
-            var graphJSON = {
-                "nodes": data,
-                "edges": [
-                    [data[0], data[1]],
-                    [data[0], data[2]],
-                    [data[0], data[3]],
-                    [data[0], data[4]],
-                    [data[0], data[5]],
-                    [data[0], data[6]],
-                    [data[0], data[7]],
-                    [data[0], data[8]]
-                ]
-            };
-
-            jQuery(function(){
-                var graph = new Springy.Graph();
-                graph.loadJSON(graphJSON);
-
-                var springy = jQuery('#springy').springy({
-                    graph: graph
-                });
-            });
-            </script>
-        </script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

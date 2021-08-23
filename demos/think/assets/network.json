@@ -2,39 +2,48 @@
     "nodes": [
         {
             "id": 1,
-            "name": "Tech Innovator"
+            "name": "Tech Innovator",
+            "color": "#804B9D"
         },
         {
             "id": 2,
-            "name": "Leadership and Government"
+            "name": "Leadership and Government",
+            "color": "#CF2A32"
         },
         {
             "id": 3,
-            "name": "End User Market"
+            "name": "End User Market",
+            "color": "#6364A8"
         },
         {
             "id": 4,
-            "name": "Industry"
+            "name": "Industry",
+            "color": "#9C887C"
         },
         {
             "id": 5,
-            "name": "Finance"
+            "name": "Finance",
+            "color": "#008828"
         },
         {
             "id": 6,
-            "name": "Products & Technology"
+            "name": "Products & Technology",
+            "color": "#009CD2"
         },
         {
             "id": 7,
-            "name": "Human Resource"
+            "name": "Human Resource",
+            "color": "#826F65"
         },
         {
             "id": 8,
-            "name": "Infrastructure"
+            "name": "Infrastructure",
+            "color": "#E54000"
         },
         {
             "id": 9,
-            "name": "Research & Development"
+            "name": "Research & Development",
+            "color": "#2E3C93"
         }
     ],
     "links": [
