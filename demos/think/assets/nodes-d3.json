@@ -1,0 +1,74 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Tech Innovator"
+        },
+        {
+            "id": 2,
+            "name": "Leadership and Government"
+        },
+        {
+            "id": 3,
+            "name": "End User Market"
+        },
+        {
+            "id": 4,
+            "name": "Industry"
+        },
+        {
+            "id": 5,
+            "name": "Finance"
+        },
+        {
+            "id": 6,
+            "name": "Products & Technology"
+        },
+        {
+            "id": 7,
+            "name": "Human Resource"
+        },
+        {
+            "id": 8,
+            "name": "Infrastructure"
+        },
+        {
+            "id": 9,
+            "name": "Research & Development"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 1,
+            "target": 8
+        },
+        {
+            "source": 1,
+            "target": 9
+        }
+    ]
+}

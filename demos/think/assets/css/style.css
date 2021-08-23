@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#fff;
+    color:#111;
+    line-height: 1.8em;
+}
+
+.main-logo {
+    margin: 0 auto;
+    max-width: 12em;
+    padding: 1em;
+}
+
+#network-graph {
+    padding: 1em;
+}
+
+#springy {
+    height: 60vh;
+    max-width:720px;
+    width: 100%;
+}
